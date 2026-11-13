@@ -1,5 +1,5 @@
 # Aplikasi utama berjalan menggunakan Python 3.x Standard Library (abc, datetime).
 # Tidak ada library pihak ketiga eksternal yang wajib diinstal untuk menjalankan `python main.py`.
 
-# Opsional - untuk menjalankan unit test pada tahap UAS:
-# pytest>=8.0.0
+# Library pengujian unit test:
+pytest>=8.0.0

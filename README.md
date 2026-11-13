@@ -61,6 +61,8 @@ Program dijalankan melalui `main.py` dengan 10 pilihan menu utama:
 ├── services/
 │   ├── reward.py          # Layanan perhitungan rasio & konversi poin reward (RewardSystem)
 │   └── simplifier.py      # Layanan kalkulasi ringkasan utang-piutang grup (DebtSimplifier)
+├── tests/
+│   └── test_dompet_digital.py # Unit test pytest (12 test case) untuk modul inti OOP
 └── utils/
     ├── exporter.py        # Utilitas ekspor riwayat transaksi ke CSV (CSVExporter)
     └── iterator.py        # Iterator penelusuran riwayat transaksi per kategori (TransactionIterator)
@@ -97,4 +99,9 @@ Program dijalankan melalui `main.py` dengan 10 pilihan menu utama:
 3. **Jalankan program:**
    ```bash
    python main.py
+   ```
+
+4. **Jalankan unit test (`pytest`):**
+   ```bash
+   python -m pytest -v
    ```
