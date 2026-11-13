@@ -1,3 +1,4 @@
+# kontribusi modul oleh vincent lim (251110685)
 from models.user import User
 from models.expense import GroupExpense
 
