@@ -1,3 +1,5 @@
+#Kontribusi modul oleh Jovin Evan Chumadin (251111299)
+
 from models.wallet import DigitalWallet
 from models.user import User
 from models.group import Group
