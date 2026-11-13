@@ -1,3 +1,4 @@
+# Kontribusi modul oleh Jonathan Jovin (251110105)
 class RewardSystem:
     def __init__(self, poin_rate: float = 0.001):
         self._poin_rate = poin_rate
