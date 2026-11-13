@@ -1,3 +1,4 @@
+#kontribusi oleh Nealsen anthony
 from models.wallet import DigitalWallet
 
 class User:
