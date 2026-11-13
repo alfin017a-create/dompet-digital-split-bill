@@ -1,0 +1,25 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & file konfigurasi lokal/sensitif
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# File CSV hasil ekspor runtime (Menu 9 CLI)
+riwayat_*.csv
+
+# Testing & IDE
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
