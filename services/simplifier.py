@@ -1,3 +1,4 @@
+# Kontribusi modul oleh Jonathan Jovin (251110105)
 from models.group import Group
 
 class DebtSimplifier:
